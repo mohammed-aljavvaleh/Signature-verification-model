@@ -281,9 +281,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+Mohammed Aljavvaleh - [@mobeast10](https://x.com/mobeast10?s=21) - mohammedaljavvaleh@gmail.com
 
-Project Link: [https://github.com/yourusername/signature-verification-ai](https://github.com/yourusername/signature-verification-ai)
+Project Link: [https://github.com/mohammed-aljavvaleh/Signature-verification-model](https://github.com/mohammed-aljavvaleh/Signature-verification-model)
 
 ## 🙏 Acknowledgments
 
