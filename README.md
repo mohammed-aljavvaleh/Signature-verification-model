@@ -1,4 +1,4 @@
-# 🖊️ Signature Verification AI System
+#  Signature Verification AI System
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.10-red.svg)](https://pytorch.org/)
@@ -9,7 +9,7 @@ An AI-powered signature verification system using Siamese Neural Networks to aut
 
 ![Signature Verification Demo](assets/demo_screenshot.png)
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -25,7 +25,7 @@ An AI-powered signature verification system using Siamese Neural Networks to aut
 - [License](#license)
 - [Contact](#contact)
 
-## 🎯 Overview
+##  Overview
 
 This project implements a deep learning solution for signature verification using a Siamese Neural Network architecture. The system can determine whether a signature is genuine or forged by comparing it with a reference signature, achieving **74% accuracy** and an **F1-score of 0.81** on test data.
 
@@ -37,16 +37,16 @@ This project implements a deep learning solution for signature verification usin
 - **GPU-accelerated** training and inference on Apple M1 (MPS)
 - **Complete ML pipeline** from data preprocessing to deployment
 
-## ✨ Features
+##  Features
 
-- ✅ **One-shot learning** - Verify signatures with minimal reference samples
-- ✅ **Real-time processing** - Instant verification results
-- ✅ **Robust to variations** - Handles natural signature differences
-- ✅ **Confidence scoring** - Provides interpretable distance metrics
-- ✅ **User-friendly interface** - Drag-and-drop web application
-- ✅ **Adjustable threshold** - Tune sensitivity for different use cases
+-  **One-shot learning** - Verify signatures with minimal reference samples
+-  **Real-time processing** - Instant verification results
+-  **Robust to variations** - Handles natural signature differences
+-  **Confidence scoring** - Provides interpretable distance metrics
+-  **User-friendly interface** - Drag-and-drop web application
+-  **Adjustable threshold** - Tune sensitivity for different use cases
 
-## 🎬 Demo
+##  Demo
 
 ### Web Application
 ![Web App Interface](assets/web_app_demo.gif)
@@ -54,11 +54,11 @@ This project implements a deep learning solution for signature verification usin
 ### Sample Results
 | Test Case | Distance | Prediction | Result |
 |-----------|----------|------------|---------|
-| Same person (genuine) | 0.0758 | ✅ Genuine | Correct |
-| Different person | 0.1069 | ❌ Forged | Correct |
-| Forged signature | 1.2177 | ❌ Forged | Correct |
+| Same person (genuine) | 0.0758 |  Genuine | Correct |
+| Different person | 0.1069 |  Forged | Correct |
+| Forged signature | 1.2177 |  Forged | Correct |
 
-## 🔧 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ python download_dataset.py
 # Place in: data/raw/cedar/
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Quick Start - Web Application
 
@@ -149,7 +149,7 @@ with torch.no_grad():
     is_genuine = distance < 0.1302  # Optimal threshold
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 signature-verification-ai/
@@ -183,7 +183,7 @@ signature-verification-ai/
 └── .gitignore
 ```
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Siamese Neural Network
 
@@ -207,7 +207,7 @@ Input (155x220 grayscale) → CNN Branch 2 ─┘
 
 **Distance Metric:** Euclidean distance between embeddings
 
-## 📊 Performance
+##  Performance
 
 ### Metrics on Test Set
 
@@ -232,7 +232,7 @@ Input (155x220 grayscale) → CNN Branch 2 ─┘
 - **Dataset:** 100 signature pairs (50 genuine, 50 forged)
 - **Parameters:** 15,790,400 trainable
 
-## 🛠️ Technologies
+##  Technologies
 
 ### Core Technologies
 
@@ -254,7 +254,7 @@ Input (155x220 grayscale) → CNN Branch 2 ─┘
 - **GPU:** Apple M1 Metal Performance Shaders (MPS)
 - **Alternative:** CUDA (NVIDIA) or CPU
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Integration with full CEDAR dataset (55 writers)
 - [ ] Transfer learning with pre-trained models (ResNet, VGG)
@@ -265,7 +265,7 @@ Input (155x220 grayscale) → CNN Branch 2 ─┘
 - [ ] Temporal signature analysis (stroke order, speed)
 - [ ] Ensemble methods for improved accuracy
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -275,17 +275,17 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+##  Contact
 
 Mohammed Aljavvaleh - [@mobeast10](https://x.com/mobeast10?s=21) - mohammedaljavvaleh@gmail.com
 
 Project Link: [https://github.com/mohammed-aljavvaleh/Signature-verification-model](https://github.com/mohammed-aljavvaleh/Signature-verification-model)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - CEDAR Signature Verification Dataset
 - PyTorch Community
@@ -294,4 +294,4 @@ Project Link: [https://github.com/mohammed-aljavvaleh/Signature-verification-mod
 
 ---
 
-**⭐ If you found this project helpful, please consider giving it a star!**
+**If you found this project helpful, please consider giving it a star!**
